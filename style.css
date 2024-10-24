@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(img/fundo02_c.jpg);
+}
+
+
+/* Posicionamento do logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 170px;
+}
+
+/* Estilos do formulário */
+#cadastro {
+    background-color: rgba(34, 45, 49, 255);
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    margin-top: 7%;
+    position: relative;
+    /* Para ajustar o posicionamento */
+    border-left: 10px solid #e8951d;
+    /* Adiciona a borda amarela no canto esquerdo */
+
+}
+
+.inputs {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: none;
+    color: black;
+    margin-bottom: 15px;
+    /* Espaçamento entre os inputs */
+}
+
+#button {
+    background-color: rgb(228, 175, 30);
+    width: 40%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+
+}
+
+/* Estilo do container */
+.container {
+    text-align: center;
+}
+
+/* Estilo do texto */
+h1 {
+
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-yellow {
+    /*Mudança de cor do segundo texto*/
+    color: #e8951d;
+    font-size: 1.7rem;
+}
+
+
+.text-white {
+    /*Mudança de cor do primeiro texto*/
+    color: white;
+    font-size: 1.7rem;
+}
+
+.highlight-pink {
+    /*Mudança de cor do segundo texto*/
+    color: #bc2441;
+
+}
+
+.second-text-white {
+    /*Mudança de cor do segundo texto*/
+    color: white;
+
+}
+
+/*Segunda parte da página*/
+#agentes{
+   
+    width: 20%;
+    height: 20%;
+    background-color: #1c1b1b;
+
+}
+#agentes img {
+   
+    width: 20%;
+    height: 20%;
+
+}
+
+#custos img {
+   
+    width: 20%;
+    height: 20%;
+}
+#custos{
+    background-color: #1c1b1b;
+    width: 20%;
+    height: 20%;
+
+}
+
+#compliance{
+   background-color: #1c1b1b;
+    width: 20%;
+    height: 20%;
+
+}
+
+#compliance img {
+   
+    width: 20%;
+    height: 20%;
+}
+h3{
+    color: white;
+    margin: 0;
+}
+/*Flexbox*/
+#second-section {
+    display: flex;
+   justify-items: center;
+    align-items: center;
+    background-color: #100c0c;
+    padding: 20px;
+    margin-top: 4%;
+
+}
+
+#second-section div {
+    flex: 1; 
+    margin: 0 10px; 
+    max-width: 30%; 
+    color: white;
+    margin-left: 5%;
+   
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.logo-title h3 {
+    font-size: x-large;
+        margin: 0;
+        white-space: nowrap; 
+        overflow: visible; 
+    }
+    
+
+#second-section p {
+    margin-left: 15%;
+    margin-top: 10px;
+    line-height: 1.5; 
+}
+/*Terceira parte*/
+
