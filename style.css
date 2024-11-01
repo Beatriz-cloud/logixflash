@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +6,7 @@ body {
     background-color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
     background-image: url(img/fundo02_c.jpg);
+    background-repeat: no-repeat;
 }
 
 
@@ -53,6 +53,8 @@ body {
     /* Espaçamento entre os inputs */
 }
 
+
+
 #button {
     background-color: rgb(228, 175, 30);
     width: 40%;
@@ -65,12 +67,10 @@ body {
 
 }
 
-/* Estilo do container */
 .container {
     text-align: center;
 }
 
-/* Estilo do texto */
 h1 {
 
     font-size: 30px;
@@ -84,77 +84,77 @@ h1 {
 }
 
 .highlight-yellow {
-    /*Mudança de cor do segundo texto*/
     color: #e8951d;
     font-size: 1.7rem;
 }
 
 
 .text-white {
-    /*Mudança de cor do primeiro texto*/
     color: white;
     font-size: 1.7rem;
 }
 
 .highlight-pink {
-    /*Mudança de cor do segundo texto*/
     color: #bc2441;
 
 }
 
 .second-text-white {
-    /*Mudança de cor do segundo texto*/
     color: white;
 
 }
 
 /*Segunda parte da página*/
-#agentes{
-   
+#agentes {
+
     width: 20%;
     height: 20%;
     background-color: #1c1b1b;
 
 }
+
 #agentes img {
-   
+
     width: 20%;
     height: 20%;
 
 }
 
 #custos img {
-   
+
     width: 20%;
     height: 20%;
 }
-#custos{
+
+#custos {
     background-color: #1c1b1b;
     width: 20%;
     height: 20%;
 
 }
 
-#compliance{
-   background-color: #1c1b1b;
+#compliance {
+    background-color: #1c1b1b;
     width: 20%;
     height: 20%;
 
 }
 
 #compliance img {
-   
+
     width: 20%;
     height: 20%;
 }
-h3{
+
+h3 {
     color: white;
     margin: 0;
 }
+
 /*Flexbox*/
 #second-section {
     display: flex;
-   justify-items: center;
+    justify-items: center;
     align-items: center;
     background-color: #100c0c;
     padding: 20px;
@@ -163,12 +163,12 @@ h3{
 }
 
 #second-section div {
-    flex: 1; 
-    margin: 0 10px; 
-    max-width: 30%; 
+    flex: 1;
+    margin: 0 10px;
+    max-width: 30%;
     color: white;
     margin-left: 5%;
-   
+
 }
 
 .logo-title {
@@ -183,16 +183,66 @@ h3{
 
 .logo-title h3 {
     font-size: x-large;
-        margin: 0;
-        white-space: nowrap; 
-        overflow: visible; 
-    }
-    
+    margin: 0;
+    white-space: nowrap;
+    overflow: visible;
+}
 
 #second-section p {
     margin-left: 15%;
     margin-top: 10px;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
-/*Terceira parte*/
 
+/*Terceira Container*/
+
+#terceira-section {
+    background-image: url(img/fundo05_c.jpg);
+    background-size: cover;
+    /* Faz a imagem de fundo cobrir o container */
+    background-position: center;
+    display: block;
+    min-height: 100vh;
+    justify-content: center;
+    /* Alinha horizontalmente no centro */
+    align-items: center;
+    padding-top: 20px;
+    /* Adiciona espaço entre a section e a div */
+}
+
+#terceira-div {
+    width: 75%;
+    height: 950px;
+    background-color: rgba(127, 126, 126, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column; /* Mantém a coluna para o título */
+    align-items: center;
+    text-align: center;
+}
+
+#h2-section {
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    display: flex; /* Cria um novo contêiner flexível para a imagem e o texto */
+    justify-content: space-between; /* Espaça a imagem e o texto no contêiner */
+    align-items: flex-start; /* Alinha a imagem e o texto no topo */
+    width: 95%; /* Faz com que o contêiner ocupe toda a largura */
+}
+
+.imagem_cotacao {
+    height: 65%; /* Define a altura da imagem */
+    margin-top: 20px; /* Margem superior para a imagem */
+}
+
+.text-paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-top: 11%; /* Margem superior para o parágrafo */
+}
