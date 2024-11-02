@@ -5,9 +5,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
+   
 }
 
+/* Posicionamento do logo */
 .logo {
     position: absolute;
     top: 20px;
@@ -18,7 +20,7 @@ body {
     width: 170px;
 }
 
-/*formulário */
+/* Estilos do formulário */
 #cadastro {
     background-color: rgba(34, 45, 49, 255);
     width: 90%;
@@ -58,11 +60,14 @@ body {
     border: none;
     cursor: pointer;
     font-size: 22px;
+
 }
 
 .container1 {
     text-align: center;
 }
+
+/* Estilo do texto */
 h1 {
 
     font-size: 30px;
@@ -76,20 +81,24 @@ h1 {
 }
 
 .highlight-yellow {
+    /*Mudança de cor do segundo texto*/
     color: #e8951d;
     font-size: 1.7rem;
 }
 .text-white {
+    /*Mudança de cor do primeiro texto*/
     color: white;
     font-size: 1.7rem;
 }
 
 .highlight-pink {
+    /*Mudança de cor do segundo texto*/
     color: #bc2441;
 
 }
 
 .second-text-white {
+    /*Mudança de cor do segundo texto*/
     color: white;
 
 }
@@ -214,6 +223,12 @@ h3{
     margin: 0;
     padding: 10px;
 }
+
+
+
+
+
+/****/
 .container {
     display: flex; /* Cria um novo contêiner flexível para a imagem e o texto */
     justify-content: space-between; /* Espaça a imagem e o texto no contêiner */
