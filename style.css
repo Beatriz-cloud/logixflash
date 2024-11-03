@@ -6,16 +6,12 @@ body {
     align-items: center;
     background-color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
-   
 }
-
-/* Posicionamento do logo */
 .logo {
     position: absolute;
     top: 20px;
     left: 20px;
 }
-
 .logo img {
     width: 170px;
 }
@@ -63,7 +59,7 @@ body {
 
 }
 
-.container1 {
+.container {
     text-align: center;
 }
 
@@ -85,6 +81,8 @@ h1 {
     color: #e8951d;
     font-size: 1.7rem;
 }
+
+
 .text-white {
     /*Mudança de cor do primeiro texto*/
     color: white;
@@ -97,56 +95,58 @@ h1 {
 
 }
 
-.second-text-white {
+.second-text-white{
     /*Mudança de cor do segundo texto*/
     color: white;
 
 }
 
+ 
 /*Segunda parte da página*/
-#agentes{
-   
+#agentes {
+
     width: 20%;
     height: 20%;
     background-color: #1c1b1b;
 
 }
+
 #agentes img {
-   
+
     width: 20%;
     height: 20%;
 
 }
 
 #custos img {
-   
+
     width: 20%;
     height: 20%;
 }
-#custos{
+
+#custos {
     background-color: #1c1b1b;
     width: 20%;
     height: 20%;
 
 }
 
-#compliance{
-   background-color: #1c1b1b;
+#compliance {
+    background-color: #1c1b1b;
     width: 20%;
     height: 20%;
-
 }
 
 #compliance img {
-   
+
     width: 20%;
     height: 20%;
 }
-h3{
+
+h3 {
     color: white;
     margin: 0;
 }
-/*Flexbox*/
 #second-section {
     display: flex;
     justify-items: center;
@@ -158,12 +158,12 @@ h3{
 }
 
 #second-section div {
-    flex: 1; 
-    margin: 0 10px; 
-    max-width: 30%; 
+    flex: 1;
+    margin: 0 10px;
+    max-width: 30%;
     color: white;
     margin-left: 5%;
-   
+
 }
 
 .logo-title {
@@ -178,23 +178,23 @@ h3{
 
 .logo-title h3 {
     font-size: x-large;
-        margin: 0;
-        white-space: nowrap; 
-        overflow: visible; 
-    }
-    
+    margin: 0;
+    white-space: nowrap;
+    overflow: visible;
+}
+
 
 #second-section p {
     margin-left: 15%;
     margin-top: 10px;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
+
 /*Terceira Container*/
 
 #terceira-section {
     background-image: url(img/fundo05_c.jpg);
     background-size: cover;
-    /* Faz a imagem de fundo cobrir o container */
     background-position: center;
     display: block;
     min-height: 100vh;
@@ -203,19 +203,23 @@ h3{
     align-items: center;
     padding-top: 20px;
     /* Adiciona espaço entre a section e a div */
+
 }
 
 #terceira-div {
     width: 75%;
-    height: 950px;
-    background-color: rgba(127, 126, 126, 0.9);
-    padding: 20px;
+    height: 1490px;
+    background-color: rgba(127, 126, 126, 0.921);
+    padding: 10px;
     border-radius: 10px;
     margin-left: 12%;
     display: flex;
-    flex-direction: column; /* Mantém a coluna para o título */
+    /* Mantém a coluna para o título */
     align-items: center;
     text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
 }
 
 #h2-section {
@@ -224,25 +228,86 @@ h3{
     padding: 10px;
 }
 
-
-
-
-
-/****/
-.container {
-    display: flex; /* Cria um novo contêiner flexível para a imagem e o texto */
-    justify-content: space-between; /* Espaça a imagem e o texto no contêiner */
-    align-items: flex-start; /* Alinha a imagem e o texto no topo */
-    width: 95%; /* Faz com que o contêiner ocupe toda a largura */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
 }
 
-.imagem_cotacao {
-    height: 65%; /* Define a altura da imagem */
-    margin-top: 20px; /* Margem superior para a imagem */
+.first_container,
+.second_container,
+.third_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.text-paragraph {
-    color: rgb(255, 255, 255);
+.imagem_cotacao,
+.imagem_embarques,
+.imagem_rastreamento {
+    height: auto;
+    max-width: 57%;
+    border-radius: 5px;
+}
+
+.first_paragraph,
+.second_paragraph,
+.third_paragraph {
+    color: white;
     font-size: 28px;
-    margin-top: 11%; /* Margem superior para o parágrafo */
+    flex: 1;
+}
+
+.second_container {
+    margin-top: 10px;
+    /* Ajuste para reduzir o espaço acima */
+}
+
+.third_container {
+    margin-top: 10px;
+}
+
+/*Mudança de cor do terceiro texto*/
+#highlight-yellow{
+    color: #f0aa48;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.third-text-white{
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+   
+}
+/* Botão Demo */
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    bottom: 20px; 
+    width: 100%;
+ 
+}
+
+.demo-button {
+    background-color: #df9319;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.demo-button:hover {
+    background-color: #fffafae1;
+    color: #e8951d;
 }
